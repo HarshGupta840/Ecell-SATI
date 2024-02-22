@@ -1,34 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-cell Website - Next.js
+
+Welcome to the repository for the Next.js website of our Entrepreneurship Cell (E-cell)!
+
+## Introduction
+
+This repository contains the source code for our E-cell website built using Next.js. Our website serves as a platform to promote entrepreneurship, showcase our initiatives, events, resources, and connect with aspiring entrepreneurs.
+
+## Pages
+
+- **Home**: The landing page highlighting the mission and vision of our E-cell, showcasing upcoming events, and featuring success stories of student entrepreneurs.
+  
+- **About**: Detailed information about our E-cell, its founding members, objectives, achievements, and the impact it has had on fostering entrepreneurship within our college community.
+
+- **Events**: A section dedicated to upcoming events, workshops, seminars, and competitions organized by our E-cell, along with registration details and past event highlights.
+
+- **Team**: Meet the passionate individuals driving our E-cell forward, including our leadership team, mentors, and volunteers, along with their roles and contributions.
+
+- **Contact**: A contact page with a form for inquiries, collaboration opportunities, sponsorship requests, and feedback.
+
+## Features
+
+- **Next.js Framework**: Leveraging the power of Next.js for server-side rendering, fast page loads, and seamless navigation.
+  
+- **Responsive Design**: Ensuring a user-friendly experience across various devices, from desktops to smartphones.
+
+- **Dynamic Routing**: Implementing dynamic routing to provide smooth navigation between different sections of the website.
+
+- **Event Calendar**: Integrating an event calendar to showcase upcoming events and allow users to add them to their calendars.
+
+- **Resource Repository**: Building a repository of curated resources with search and filter functionalities to help users easily find relevant content.
+
+- **Newsletter Subscription**: Allowing visitors to subscribe to our newsletter to stay updated on the latest news, events, and opportunities.
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the Repository**: 
+    ```
+    git clone https://github.com/your-username/college-club-website.git
+    ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+2. **Install Dependencies**: 
+    ```
+    cd college-club-website
+    npm install
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Run the Development Server**: 
+    ```
+    npm run dev
+    ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. **Open Your Browser**: Visit `http://localhost:3000` to see the website in action.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Customization
 
-## Learn More
+- **Modify Content**: Update the content of the website pages by editing the relevant components in the `pages` directory.
+- **Styling**: Customize the styles by editing the CSS files or utilizing CSS-in-JS libraries like styled-components.
+- **Add New Features**: Extend the website functionality by adding new pages, components, or integrating with external APIs.
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To deploy your college club website, you can use platforms like Vercel, Netlify, or GitHub Pages. Simply follow their respective deployment guides to publish your website.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Next.js
+- React
+- CSS / styled-components
+- Tailwind css
+- Swiper js
+- Typescript
